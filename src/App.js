@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import logo from './GGReduxLogo.png';
 import './App.css';
 
-function App() {
+
+
+
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          <p>
+            Welcome to Gamer Gallery Redux. This page is currently under construction.
+          </p>
+              <div id="collapseID" className="wrapper">
+                <h1>FUTURE PLANS: </h1>
+                <ul>
+                  <li>
+                    Implement Steam API (Currently Having CORS Errors)
+                  </li>
+                  <li>
+                    Look into Xbox API
+                  </li>
+                  <li>
+                    Look into EPIC API
+                  </li>
+                </ul>
+              </div>
+        </div>
       </header>
     </div>
   );
 }
-
-export default App;

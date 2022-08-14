@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Gamer Gallery Redux
+This project was inspired by my capstone, a website where you can link your different game accounts (Steam, Epic, Xbox, Etc.) and compare your library with your friends. This is the new iteration as a side project for myself.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
